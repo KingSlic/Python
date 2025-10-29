@@ -1,20 +1,4 @@
 
-# def calculate_average(scores):
-#     scores = []
-#     numOfScores = int(input("How many test scores do you want to enter? "))
-
-#     for num in numOfScores:
-#         score = int(input(f"Enter score {num}: "))
-#         scores.append(score)
-    
-#     average = sum(scores)/numOfScores
-
-
-#     print("\n=== GRADE REPORT ===")
-#     print(f"Test Scores: {scores}")
-#     print(f"Average Score: {average}")
-
-
 def calcAverage(scores):
     return sum(scores) / len(scores)
 

@@ -30,7 +30,7 @@ def did_it_hit(damage, bonus=0.0, penalty=0.0, guaranteed=False):
     # damage: intended dmg
     # bonus: accuracy bonuses for special attacks
     # penalty: accuracy penalties (debuffs)
-    # guaranteed is for non-dmg dealing moves
+    # guaranteed is for non-dmg dealing moves (buffs/debuffs)
 
     if guaranteed:
         if DEBUG:

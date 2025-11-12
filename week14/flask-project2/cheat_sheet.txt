@@ -1,0 +1,18 @@
+# Create virtual environment
+python -m venv .venv
+
+# Windwows - Activate virtual environment 
+.venv\Scripts\activate
+# Macos command to activate virtual envrionment
+source .venv/scripts/activate
+
+# install flask in the virtual environment
+pip install flask
+
+# create app.py (Check demo)
+
+# run flask app using below command
+flask run
+
+# Access the following URL to see your routes
+http://127.0.0.1:5000

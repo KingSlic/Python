@@ -10,7 +10,7 @@ In this assignment, you will build a complete Flask API from scratch.
 You will:
 
 * Create a **SQLite database with two related tables**
-* Implement **CRUD** operations (Create, Read, Update, Delete)
+* Implement **CRUD** operations (Create, Read, Update, Delete) 
 * Use a **1-to-many relationship** (authors → books)
 * Add **basic validation** and return **structured JSON errors**
 * Use Flask’s built-in development server

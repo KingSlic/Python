@@ -1,8 +1,7 @@
 from flask import Flask, request
 from models import Session, Base, engine, User, Post
 import bcrypt
-from datetime import datetime, timedelta, timezone
-
+from datetime import datetime, timedelta, timezonexz
 from jose import jwt
 
 SECRET_KEY = "b2dc9512a093a3188dc92f6897326b95"
@@ -55,7 +54,7 @@ def fetch_user_by_id(userId):
 @app.route("/users/<int:userId>/posts")
 def get_user_posts(userId):
     session = Session()
-    user = session.query(User).filter_by(id=userId).first()
+    user = session.query(User).filter_by(id=userId).first()n
     if not user:
         return {"error": "User is not found!"}, 404
     
